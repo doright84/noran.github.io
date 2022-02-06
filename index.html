@@ -15,18 +15,21 @@
     <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
         <![endif]-->
-        <!-- vender-prefix -->
-        <!-- <script type="text/javascript" src="js/prefixfree.min.js"></script> -->
-        <script src="js/respond.min.js"></script>
-        <!-- aos -->
-        <script src="js/aos/aos.js"></script>
-        <link rel="stylesheet" href="js/aos/aos.css">
-        
-        <!-- swiper -->
-        <link rel="stylesheet" href="js/swiper/swiper.min.css">
-        <script src="js/swiper/swiper.min.js"></script>
-   
-        <script type="text/javascript" src="js/script.js"></script>
+    <!-- vender-prefix -->
+
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+
+    <script src="js/respond.min.js"></script>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script src="js/swiper/swiper.min.js"></script>
+
+    <!-- aos -->
+    <script src="js/aos/aos.js"></script>
+    <link rel="stylesheet" href="js/aos/aos.css">
+
+    <script type="text/javascript" src="js/script.js"></script>
     <!-- normalize.css -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -34,6 +37,10 @@
 
 <body>
     <div class="wrap">
+        <button class="gotop">
+            <img src="images/btn_gotop.png" alt="올라가기버튼">
+            <p>TOP</p>
+        </button>
         <!-- head -->
         <section class="head">
             <div class="head-fixed">
@@ -70,6 +77,7 @@
                 <div class="head-gnb">
                     <div class="container">
                         <a href="#" class="login">로그인</a>
+                        <a href="#" class="index"></a>
                         <a href="#" class="noran-logo"></a>
                         <div class="gnb">
                             <ul class="gnb-menu clearfix">
@@ -130,46 +138,38 @@
                                         <span class="menu-list-left">가입 및 납부안내</span>
                                         <ul class="menu-depth1 clearfix">
                                             <li>
-                                                <a href="#">계약정보관리</a>
+                                                <a href="#">가입안내</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">계약정보조회</a></li>
-                                                    <li><a href="#">고객정보 변경신청</a></li>
-                                                    <li><a href="#">부금납부정보 변경신청</a></li>
-                                                    <li><a href="#">기준이율 변경신청</a></li>
-                                                    <li><a href="#">부금통산신청</a></li>
+                                                    <li><a href="#">노란우산이란?</a></li>
+                                                    <li><a href="#">가입대상</a></li>
+                                                    <li><a href="#">가입부금</a></li>
+                                                    <li><a href="#">가입방법</a></li>
+                                                    <li><a href="#">부금통산</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">부금선납</a>
+                                                <a href="#">가입자 혜택</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">부금선납신청</a></li>
+                                                    <li><a href="#">소득공제</a></li>
+                                                    <li><a href="#">압류금지</a></li>
+                                                    <li><a href="#">복리이자</a></li>
+                                                    <li><a href="#">희망장려금</a></li>
+                                                    <li><a href="#">복지플러스</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">내역조회 및 발급</a>
+                                                <a href="#">공제금/해약환급금</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">신청내역·현황</a></li>
-                                                    <li><a href="#">납부·미납내역</a></li>
-                                                    <li><a href="#">희망장려금 적립내역</a></li>
-                                                    <li><a href="#">재증명발급</a></li>
+                                                    <li><a href="#">공제금 안내</a></li>
+                                                    <li><a href="#">공제금 지급예시표</a></li>
+                                                    <li><a href="#">공제금 지금계산기</a></li>
+                                                    <li><a href="#">해약환급금 안내</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">대출</a>
+                                                <a href="#">공제계약대출</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">대출가능액</a></li>
-                                                    <li><a href="#">대출신청</a></li>
-                                                    <li><a href="#">대출상환신청</a></li>
-                                                    <li><a href="#">대출재약정신청</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">지급신청</a>
-                                                <ul class="menu-depth2">
-                                                    <li><a href="#">지급예상액</a></li>
-                                                    <li><a href="#">공제금 신청(폐업,노령 등)</a></li>
-                                                    <li><a href="#">공제금 분할지급신청</a></li>
-                                                    <li><a href="#">해약환급금 신청(임의해약, 간주해약 등)</a></li>
+                                                    <li><a href="#">공제계약대출 안내</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -180,7 +180,11 @@
                                     <div class="menu-list clearfix">
                                         <span class="menu-list-left">복지플러스</span>
                                         <ul class="menu-depth1 clearfix">
-                                           
+                                            <li class="welfarepart">
+                                                고객의 경영부담을 줄이고 행복한 생활을 위해 다양한 복지혜택을 제공하고 있습니다.<br>
+                                                <b>노란우산복지플러스</b>를 통해 양질의 복지서비스를 이용해보세요.
+                                            </li>
+                                            <li class="welfare-btn">복지플러스 바로가기</li>
                                         </ul>
                                     </div>
                                 </li>
@@ -190,47 +194,26 @@
                                         <span class="menu-list-left">고객센터</span>
                                         <ul class="menu-depth1 clearfix">
                                             <li>
-                                                <a href="#">계약정보관리</a>
+                                                <a href="#">문의사항</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">계약정보조회</a></li>
-                                                    <li><a href="#">고객정보 변경신청</a></li>
-                                                    <li><a href="#">부금납부정보 변경신청</a></li>
-                                                    <li><a href="#">기준이율 변경신청</a></li>
-                                                    <li><a href="#">부금통산신청</a></li>
+                                                    <li><a href="#">자주묻는 질문</a></li>
+                                                    <li><a href="#">1:1 문의게시판</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">부금선납</a>
+                                                <a href="#">공지사항</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">구비서류</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">지역본부 및 상담사</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">부금선납신청</a></li>
+                                                    <li><a href="#">지역본부/상담사 확인</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">내역조회 및 발급</a>
-                                                <ul class="menu-depth2">
-                                                    <li><a href="#">신청내역·현황</a></li>
-                                                    <li><a href="#">납부·미납내역</a></li>
-                                                    <li><a href="#">희망장려금 적립내역</a></li>
-                                                    <li><a href="#">재증명발급</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">대출</a>
-                                                <ul class="menu-depth2">
-                                                    <li><a href="#">대출가능액</a></li>
-                                                    <li><a href="#">대출신청</a></li>
-                                                    <li><a href="#">대출상환신청</a></li>
-                                                    <li><a href="#">대출재약정신청</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">지급신청</a>
-                                                <ul class="menu-depth2">
-                                                    <li><a href="#">지급예상액</a></li>
-                                                    <li><a href="#">공제금 신청(폐업,노령 등)</a></li>
-                                                    <li><a href="#">공제금 분할지급신청</a></li>
-                                                    <li><a href="#">해약환급금 신청(임의해약, 간주해약 등)</a></li>
-                                                </ul>
+                                                <a href="#">인테넛 신청시간</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -241,46 +224,34 @@
                                         <span class="menu-list-left">공제소개</span>
                                         <ul class="menu-depth1 clearfix">
                                             <li>
-                                                <a href="#">계약정보관리</a>
+                                                <a href="#">운영개요</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">계약정보조회</a></li>
-                                                    <li><a href="#">고객정보 변경신청</a></li>
-                                                    <li><a href="#">부금납부정보 변경신청</a></li>
-                                                    <li><a href="#">기준이율 변경신청</a></li>
-                                                    <li><a href="#">부금통산신청</a></li>
+                                                    <li><a href="#">설립목적</a></li>
+                                                    <li><a href="#">연혁</a></li>
+                                                    <li><a href="#">운영기관</a></li>
+                                                    <li><a href="#">BI/캐릭터소개</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">부금선납</a>
+                                                <a href="#">경영공시</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">부금선납신청</a></li>
+                                                    <li><a href="#">자산운용현황</a></li>
+                                                    <li><a href="#">경영성과</a></li>
+                                                    <li><a href="#">대내외평가</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">내역조회 및 발급</a>
+                                                <a href="#">기준이율공시</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">신청내역·현황</a></li>
-                                                    <li><a href="#">납부·미납내역</a></li>
-                                                    <li><a href="#">희망장려금 적립내역</a></li>
-                                                    <li><a href="#">재증명발급</a></li>
+                                                    <li><a href="#">기준이율</a></li>
+                                                    <li><a href="#">대출이율</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">대출</a>
+                                                <a href="#">법령 및 규정</a>
                                                 <ul class="menu-depth2">
-                                                    <li><a href="#">대출가능액</a></li>
-                                                    <li><a href="#">대출신청</a></li>
-                                                    <li><a href="#">대출상환신청</a></li>
-                                                    <li><a href="#">대출재약정신청</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">지급신청</a>
-                                                <ul class="menu-depth2">
-                                                    <li><a href="#">지급예상액</a></li>
-                                                    <li><a href="#">공제금 신청(폐업,노령 등)</a></li>
-                                                    <li><a href="#">공제금 분할지급신청</a></li>
-                                                    <li><a href="#">해약환급금 신청(임의해약, 간주해약 등)</a></li>
+                                                    <li><a href="#">법령 및 규정</a></li>
+                                                    <li><a href="#">약관</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -366,7 +337,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-box box-img2">
@@ -404,19 +374,13 @@
                         </div>
 
                     </div>
-                    <div class="swiper-slide">
-                        <div class="slide-box box-img5">
-                            <div class="container">
-                                <div class="slide-cont">
-                                    <a href="#">자세히보기</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                </div>
+                <!-- 페이지네이션 :  .slide-sw-bt 클래스 수정 및 참조-->
+                <div class="slide-sw-pg-wrap">
+                    <div class="swiper-pagination slide-sw-pg"></div>
+                    <button class="slide-sw-bt">재생</button>
                 </div>
             </div>
-
         </section>
         <!-- cont  -->
         <section class="cont" data-aos="fade-up" data-aos-duration="3000">
@@ -598,6 +562,11 @@
                                 <img src="images/footer_sw10.png" alt="">
                             </div>
                         </div>
+                    </div>
+                    <div class="footer-sw-navi-wrap">
+                        <img class="footer-prev" src="images/f_sw_prev.png" alt="이전버튼">
+                        <img class="footer-sw-bt">
+                        <img class="footer-next" src="images/f_sw_next.png" alt="다음버튼">
                     </div>
                 </div>
             </div>
