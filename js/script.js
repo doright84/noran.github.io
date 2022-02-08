@@ -3,7 +3,10 @@ $(document).ready(function () {
     AOS.init({
         once: true //aos 한번만 실행하도록하기
     });
-
+// 안내창 닫기
+$('.modal').click(function () {
+    $('.modal').fadeOut();
+});
     // gotop
     let goTop = $('.gotop');
     goTop.click(function () {
